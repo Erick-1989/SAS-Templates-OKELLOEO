@@ -7,7 +7,7 @@ Some advantages of repeated measure models are:
 1. Will allow to monitor how treatment effect changes over time
 2. Will produce more efficient estimates than non-repeated models allowing statistical inference to be made with fewer subjects
 3. Will produce tests with higher power (i.e. if an effect exists, your statistical test is more likely to detect it).
-4. 
+
 SAS can fit repeated measure designs within linear mixed models (proc mixed). This allows to accommodate for missing data and random effects.
 
 ### Model Assumptions of MMRM
