@@ -9,13 +9,14 @@ Repeated measures occur whenever the same observation is taken sequentially on t
 - Repeated measures models are efficient in utilizing all data and gaining precision.
 
 ### Example
-|                  | Attributes           
+| Estimand         | Estimand Attributes           
 | ---------------- | -------------------
 | Population       | HIV patients who were intolerant to zidovudine therapy (Abrams et. al., NEJM, 1994)
 | Disposition      | 230 patients startified by disease severity
-| Design           | Parallel Group with 3 Treatment Arms: A ddC, B ddl Colin
+| Design           | Parallel Group with 2 Treatment Arms: ddC and ddl
 | Duration         | 5 visits: at baseline, 2 months, 6 months, 12 months and 18 months
-| Primary Endpoint | Change in CD4 count over time, CHG=Change from Baseline CD4
+| Primary Endpoint | Change in plasma viral load over time, CHG=Change from Baseline plasma viral load
+| Intercurrent events| Rescue Medication should plasma viral load deteriorate to the threshold, Treatment discontinuation due to AE
 
 ### Some advantages of repeated measure models are:
 1. Will allow to monitor how treatment effect changes over time
