@@ -1,9 +1,24 @@
 # Repeated Measures Analysis
-
 Repeated measures occur whenever the same observation is taken sequentially on the same object, usually through time. This introduces a dependency within the subject’s observations.
 
-Some advantages of repeated measure models are:
+### Why repeated Measures Analysis?
+- Within-subject variability is lower than between-subject variability and so there can be greater precision in estimating effects by taking repeated measures on individual subjects.
+- Cross-over designs are a special case of repeated measures, also known as within-subjects designs, use the same subjects with every condition of the research, including the control. 
+- Cross-over designs require less subjects than parallel group designs.
+- Parallel group repeated measures designs are well suited for studying long term effects of treatments and changes over time. 
+- Repeated measures models are efficient in utilizing all data and gaining precision.
 
+### Example
+| Estimand         | Estimand Attributes           
+| ---------------- | -------------------
+| Population       | HIV patients who were intolerant to zidovudine therapy (Abrams et. al., NEJM, 1994)
+| Disposition      | 230 patients startified by disease severity
+| Design           | Parallel Group with 2 Treatment Arms: ddC and ddl
+| Duration         | 5 visits: at baseline, 2 months, 6 months, 12 months and 18 months
+| Primary Endpoint | Change in plasma viral load over time, CHG=Change from Baseline plasma viral load
+| Intercurrent events| Rescue Medication should plasma viral load deteriorate to the threshold, Treatment discontinuation due to AE
+
+### Some advantages of repeated measure models are:
 1. Will allow to monitor how treatment effect changes over time
 2. Will produce more efficient estimates than non-repeated models allowing statistical inference to be made with fewer subjects
 3. Will produce tests with higher power (i.e. if an effect exists, your statistical test is more likely to detect it).
